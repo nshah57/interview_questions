@@ -1,31 +1,19 @@
 # InterviewQuestions
 
-TODO: Write a gem description
-
+Make sure the test passes
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'interview_questions'
-```
+Clone the repo
+    $ git clone https://github.com/nshah57/interview_questions.git
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install interview_questions
-
 ## Usage
 
-TODO: Write usage instructions here
+Run the command below and make sure there are 0 failures
+```
+bundle exec rspec
+```
 
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/interview_questions/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
